@@ -308,6 +308,10 @@
       <a name="value" val="0xf"/>
       <a name="width" val="6"/>
     </comp>
+    <comp lib="0" loc="(1510,1030)" name="Constant">
+      <a name="value" val="0x1a"/>
+      <a name="width" val="6"/>
+    </comp>
     <comp lib="0" loc="(1510,990)" name="Constant">
       <a name="value" val="0x0"/>
       <a name="width" val="6"/>
