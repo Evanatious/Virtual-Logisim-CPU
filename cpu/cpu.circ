@@ -5,8 +5,38 @@
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="appear" val="center"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
+      <a name="bit1" val="0"/>
+      <a name="bit10" val="0"/>
+      <a name="bit11" val="0"/>
+      <a name="bit12" val="0"/>
+      <a name="bit13" val="0"/>
+      <a name="bit14" val="0"/>
+      <a name="bit15" val="0"/>
+      <a name="bit16" val="0"/>
+      <a name="bit17" val="0"/>
+      <a name="bit18" val="0"/>
+      <a name="bit19" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit20" val="1"/>
+      <a name="bit21" val="1"/>
+      <a name="bit22" val="1"/>
+      <a name="bit23" val="1"/>
+      <a name="bit24" val="1"/>
+      <a name="bit25" val="1"/>
+      <a name="bit26" val="1"/>
+      <a name="bit27" val="1"/>
+      <a name="bit28" val="1"/>
+      <a name="bit29" val="1"/>
+      <a name="bit3" val="0"/>
+      <a name="bit30" val="1"/>
+      <a name="bit31" val="1"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="0"/>
+      <a name="bit9" val="0"/>
+      <a name="incoming" val="32"/>
     </tool>
     <tool name="Pin">
       <a name="facing" val="north"/>
@@ -340,9 +370,8 @@
       <a name="label" val="ProgramCounter"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(420,800)" name="Constant">
-      <a name="facing" val="west"/>
-      <a name="value" val="0x0"/>
+    <comp lib="0" loc="(410,810)" name="Tunnel">
+      <a name="label" val="PCsel"/>
     </comp>
     <comp lib="0" loc="(520,200)" name="Pin">
       <a name="label" val="Instruction"/>
@@ -375,6 +404,10 @@
     <comp lib="0" loc="(790,220)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(800,1780)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="PCsel"/>
     </comp>
     <comp lib="0" loc="(870,190)" name="Pin">
       <a name="facing" val="south"/>
@@ -566,15 +599,13 @@
     <wire from="(230,680)" to="(650,680)"/>
     <wire from="(230,800)" to="(240,800)"/>
     <wire from="(240,900)" to="(270,900)"/>
-    <wire from="(250,810)" to="(330,810)"/>
+    <wire from="(250,810)" to="(410,810)"/>
     <wire from="(250,860)" to="(260,860)"/>
     <wire from="(260,830)" to="(260,860)"/>
     <wire from="(270,790)" to="(300,790)"/>
     <wire from="(270,830)" to="(270,860)"/>
     <wire from="(270,830)" to="(300,830)"/>
     <wire from="(300,790)" to="(300,830)"/>
-    <wire from="(330,800)" to="(330,810)"/>
-    <wire from="(330,800)" to="(420,800)"/>
     <wire from="(330,860)" to="(360,860)"/>
     <wire from="(360,550)" to="(1100,550)"/>
     <wire from="(360,550)" to="(360,760)"/>
@@ -582,7 +613,6 @@
     <wire from="(360,860)" to="(380,860)"/>
     <wire from="(380,240)" to="(380,260)"/>
     <wire from="(380,260)" to="(590,260)"/>
-    <wire from="(400,1390)" to="(800,1390)"/>
     <wire from="(520,200)" to="(590,200)"/>
     <wire from="(590,220)" to="(590,260)"/>
     <wire from="(590,70)" to="(590,180)"/>
@@ -609,7 +639,7 @@
     <wire from="(760,90)" to="(1560,90)"/>
     <wire from="(760,90)" to="(760,210)"/>
     <wire from="(790,130)" to="(790,220)"/>
-    <wire from="(800,1390)" to="(800,1820)"/>
+    <wire from="(800,1780)" to="(800,1820)"/>
     <wire from="(810,210)" to="(850,210)"/>
     <wire from="(850,1340)" to="(850,1820)"/>
     <wire from="(850,1820)" to="(860,1820)"/>
