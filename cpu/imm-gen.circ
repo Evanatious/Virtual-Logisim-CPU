@@ -356,6 +356,9 @@
       <a name="label" val="Immediate"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(90,430)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="0" loc="(920,160)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="Immediate"/>
@@ -383,10 +386,9 @@
       <a name="text" val="DON'T CHANGE THE LOCATIONS OF THE INPUTS AND OUTPUTS!"/>
     </comp>
     <wire from="(1110,100)" to="(1110,220)"/>
+    <wire from="(120,450)" to="(130,450)"/>
     <wire from="(130,370)" to="(260,370)"/>
     <wire from="(130,380)" to="(270,380)"/>
-    <wire from="(130,430)" to="(130,450)"/>
-    <wire from="(130,430)" to="(250,430)"/>
     <wire from="(130,460)" to="(140,460)"/>
     <wire from="(130,470)" to="(150,470)"/>
     <wire from="(130,480)" to="(160,480)"/>
@@ -427,6 +429,7 @@
     <wire from="(570,460)" to="(620,460)"/>
     <wire from="(640,540)" to="(640,620)"/>
     <wire from="(660,500)" to="(710,500)"/>
+    <wire from="(90,430)" to="(250,430)"/>
     <wire from="(920,100)" to="(1110,100)"/>
     <wire from="(920,100)" to="(920,140)"/>
     <wire from="(920,160)" to="(940,160)"/>
