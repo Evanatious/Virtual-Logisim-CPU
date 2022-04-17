@@ -506,7 +506,7 @@
     </comp>
     <comp lib="0" loc="(720,1790)" name="Tunnel">
       <a name="facing" val="south"/>
-      <a name="label" val="Instruction"/>
+      <a name="label" val="Instruction_2"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(790,130)" name="Pin">
