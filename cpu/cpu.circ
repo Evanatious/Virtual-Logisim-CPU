@@ -309,6 +309,11 @@
       <a name="label" val="a0"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(1530,610)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="MemAddress"/>
+      <a name="width" val="32"/>
+    </comp>
     <comp lib="0" loc="(1640,1160)" name="Tunnel">
       <a name="label" val="BrEq"/>
     </comp>
@@ -500,10 +505,6 @@
       <a name="value" val="0x13"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(430,720)" name="Tunnel">
-      <a name="label" val="ProgramCounter"/>
-      <a name="width" val="32"/>
-    </comp>
     <comp lib="0" loc="(480,1310)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="PCsel"/>
@@ -542,7 +543,7 @@
     </comp>
     <comp lib="0" loc="(720,1790)" name="Tunnel">
       <a name="facing" val="south"/>
-      <a name="label" val="Instruction_2"/>
+      <a name="label" val="Instruction"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(790,130)" name="Pin">
@@ -755,6 +756,7 @@
     <wire from="(1440,870)" to="(1570,870)"/>
     <wire from="(1500,190)" to="(1500,220)"/>
     <wire from="(1520,210)" to="(1560,210)"/>
+    <wire from="(1530,610)" to="(1570,610)"/>
     <wire from="(1560,90)" to="(1560,210)"/>
     <wire from="(1570,610)" to="(1570,820)"/>
     <wire from="(1570,610)" to="(1810,610)"/>
@@ -836,8 +838,6 @@
     <wire from="(360,1190)" to="(470,1190)"/>
     <wire from="(360,550)" to="(360,760)"/>
     <wire from="(360,550)" to="(420,550)"/>
-    <wire from="(360,720)" to="(360,760)"/>
-    <wire from="(360,720)" to="(430,720)"/>
     <wire from="(360,760)" to="(360,860)"/>
     <wire from="(360,860)" to="(380,860)"/>
     <wire from="(380,240)" to="(380,260)"/>
