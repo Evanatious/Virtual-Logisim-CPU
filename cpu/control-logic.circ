@@ -5,14 +5,8 @@
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="appear" val="center"/>
-      <a name="bit0" val="none"/>
-      <a name="bit1" val="none"/>
-      <a name="bit2" val="1"/>
-      <a name="bit3" val="none"/>
-      <a name="bit4" val="none"/>
-      <a name="bit5" val="none"/>
-      <a name="bit6" val="0"/>
-      <a name="incoming" val="7"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
     </tool>
     <tool name="Pin">
       <a name="facing" val="north"/>
@@ -28,10 +22,6 @@
     </tool>
     <tool name="Clock">
       <a name="facing" val="north"/>
-    </tool>
-    <tool name="Constant">
-      <a name="value" val="0x0"/>
-      <a name="width" val="4"/>
     </tool>
     <tool name="Bit Extender">
       <a name="in_width" val="1"/>
@@ -822,7 +812,7 @@
 1281 1681 1301 1381 41 41 41 1041
 10c1 1141 1241 12c1 16c1 1341 13c1 842
 842 842 4*64 74 74 1067 17e7 2069
-2045
+2041
 </a>
       <a name="dataWidth" val="16"/>
     </comp>
