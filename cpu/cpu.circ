@@ -5,38 +5,14 @@
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit10" val="0"/>
-      <a name="bit11" val="0"/>
-      <a name="bit12" val="0"/>
-      <a name="bit13" val="0"/>
-      <a name="bit14" val="0"/>
-      <a name="bit15" val="0"/>
-      <a name="bit16" val="0"/>
-      <a name="bit17" val="0"/>
-      <a name="bit18" val="0"/>
-      <a name="bit19" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit20" val="1"/>
-      <a name="bit21" val="1"/>
-      <a name="bit22" val="1"/>
-      <a name="bit23" val="1"/>
-      <a name="bit24" val="1"/>
-      <a name="bit25" val="1"/>
-      <a name="bit26" val="1"/>
-      <a name="bit27" val="1"/>
-      <a name="bit28" val="1"/>
-      <a name="bit29" val="1"/>
-      <a name="bit3" val="0"/>
-      <a name="bit30" val="1"/>
-      <a name="bit31" val="1"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="0"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="1"/>
+      <a name="bit3" val="none"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="none"/>
       <a name="bit6" val="0"/>
-      <a name="bit7" val="0"/>
-      <a name="bit8" val="0"/>
-      <a name="bit9" val="0"/>
-      <a name="incoming" val="32"/>
+      <a name="incoming" val="7"/>
     </tool>
     <tool name="Pin">
       <a name="facing" val="north"/>
@@ -54,8 +30,8 @@
       <a name="facing" val="north"/>
     </tool>
     <tool name="Constant">
-      <a name="value" val="0xff"/>
-      <a name="width" val="8"/>
+      <a name="value" val="0x0"/>
+      <a name="width" val="4"/>
     </tool>
     <tool name="Bit Extender">
       <a name="in_width" val="1"/>
@@ -456,6 +432,11 @@
       <a name="label" val="RegWriteData"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(230,680)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="MemAddress"/>
+      <a name="width" val="32"/>
+    </comp>
     <comp lib="0" loc="(240,900)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="clk"/>
@@ -756,7 +737,6 @@
     <wire from="(230,1010)" to="(700,1010)"/>
     <wire from="(230,1030)" to="(670,1030)"/>
     <wire from="(230,680)" to="(230,800)"/>
-    <wire from="(230,680)" to="(650,680)"/>
     <wire from="(230,800)" to="(240,800)"/>
     <wire from="(240,900)" to="(270,900)"/>
     <wire from="(250,810)" to="(410,810)"/>
@@ -779,8 +759,7 @@
     <wire from="(590,70)" to="(590,180)"/>
     <wire from="(600,780)" to="(600,1000)"/>
     <wire from="(600,780)" to="(730,780)"/>
-    <wire from="(650,610)" to="(650,680)"/>
-    <wire from="(650,680)" to="(650,820)"/>
+    <wire from="(650,610)" to="(650,820)"/>
     <wire from="(650,820)" to="(730,820)"/>
     <wire from="(650,860)" to="(730,860)"/>
     <wire from="(670,760)" to="(670,1030)"/>
