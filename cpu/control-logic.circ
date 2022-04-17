@@ -617,7 +617,8 @@
       <a name="appear" val="center"/>
       <a name="bit0" val="none"/>
       <a name="bit1" val="none"/>
-      <a name="bit3" val="none"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="2"/>
       <a name="bit4" val="none"/>
       <a name="bit5" val="1"/>
       <a name="bit6" val="0"/>
@@ -761,6 +762,7 @@
     <comp lib="1" loc="(740,1560)" name="AND Gate">
       <a name="label" val="Plus2"/>
     </comp>
+    <comp lib="1" loc="(770,2230)" name="NOT Gate"/>
     <comp lib="2" loc="(1000,1390)" name="Multiplexer">
       <a name="enable" val="false"/>
       <a name="select" val="2"/>
@@ -1101,7 +1103,7 @@
     <wire from="(710,1250)" to="(750,1250)"/>
     <wire from="(710,2210)" to="(1190,2210)"/>
     <wire from="(710,2220)" to="(1120,2220)"/>
-    <wire from="(710,2230)" to="(1100,2230)"/>
+    <wire from="(710,2230)" to="(740,2230)"/>
     <wire from="(730,210)" to="(730,230)"/>
     <wire from="(740,1270)" to="(750,1270)"/>
     <wire from="(740,1410)" to="(810,1410)"/>
@@ -1111,6 +1113,7 @@
     <wire from="(760,1590)" to="(760,1630)"/>
     <wire from="(760,1630)" to="(780,1630)"/>
     <wire from="(760,1650)" to="(780,1650)"/>
+    <wire from="(770,2230)" to="(1100,2230)"/>
     <wire from="(790,1260)" to="(880,1260)"/>
     <wire from="(800,370)" to="(800,820)"/>
     <wire from="(810,1410)" to="(810,1470)"/>
